@@ -1,5 +1,5 @@
 # preferencex
-Library that extends Java Preferences API to work with  file as the storage
+Library that extends [Java Preferences API](http://docs.oracle.com/javase/7/docs/technotes/guides/preferences/overview.html) to work with  file as the storage
 
 ## Usage
 
