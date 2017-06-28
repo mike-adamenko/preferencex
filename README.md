@@ -1,7 +1,7 @@
 # preferencex
 Library that extends Java Preferences API to work with  file as the storage
 
-#Usage
+## Usage
 
 ```
 System.setProperty("java.util.prefs.PreferencesFactory", FilePreferencesFactory.class.getName());
