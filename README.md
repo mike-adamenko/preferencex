@@ -3,7 +3,6 @@ Library that extends [Java Preferences API](http://docs.oracle.com/javase/7/docs
 
 ## Usage
 
- To use it,
  * set the system property `java.util.prefs.PreferencesFactory` to `com.github.adamenk.prefs.FilePreferencesFactory`
  * The default properties file is `[user.home]/.fileprefs`, but may be overridden with the system property 
  `com.github.adamenk.prefs.FilePreferencesFactory.file`
