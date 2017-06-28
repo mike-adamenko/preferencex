@@ -1,7 +1,9 @@
-# preferencex
-Library that extends [Java Preferences API](http://docs.oracle.com/javase/7/docs/technotes/guides/preferences/overview.html) to work with  file as the storage
+# _**preferencex**_
+Utility library that extends [Java Preferences API](http://docs.oracle.com/javase/7/docs/technotes/guides/preferences/overview.html) to work with  file as the storage
 
-## Usage
+_Preferencex_ library implemented without any dependencies.
+
+## _Usage_
 
  * set the system property `java.util.prefs.PreferencesFactory` to `com.github.adamenk.prefs.FilePreferencesFactory`
  * The default properties file is `[user.home]/.fileprefs`, but may be overridden with the system property 
