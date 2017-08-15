@@ -5,9 +5,9 @@ _Preferencex_ library implemented without any dependencies.
 
 ## _Usage_
 
- * set the system property `java.util.prefs.PreferencesFactory` to `com.github.adamenk.prefs.FilePreferencesFactory`
+ * set the system property `java.util.prefs.PreferencesFactory` to `com.github.adamenko.prefs.FilePreferencesFactory`
  * The default properties file is `[user.home]/.fileprefs`, but may be overridden with the system property 
- `com.github.adamenk.prefs.FilePreferencesFactory.file`
+ `com.github.adamenko.prefs.FilePreferencesFactory.file`
 
 
 Example:

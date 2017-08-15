@@ -1,11 +1,11 @@
-package com.github.adamenk.prefs;
+package com.github.adamenko.prefs;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.prefs.Preferences;
 
-import static com.github.adamenk.prefs.FilePreferencesFactory.SYSTEM_PROPERTY_FILE;
+import static com.github.adamenko.prefs.FilePreferencesFactory.SYSTEM_PROPERTY_FILE;
 
 public class FilePreferencesTest {
 

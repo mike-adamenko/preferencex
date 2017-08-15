@@ -1,4 +1,4 @@
-package com.github.adamenk.prefs;
+package com.github.adamenko.prefs;
 
 
 import java.io.File;

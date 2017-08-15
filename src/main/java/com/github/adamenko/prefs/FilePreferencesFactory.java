@@ -1,4 +1,4 @@
-package com.github.adamenk.prefs;
+package com.github.adamenko.prefs;
 
 import java.io.File;
 import java.util.logging.Logger;
@@ -8,17 +8,17 @@ import java.util.prefs.PreferencesFactory;
 /**
  * PreferencesFactory implementation that stores the preferences in a user-defined file. To use it,
  * set the system property <tt>java.util.prefs.PreferencesFactory</tt> to
- * <tt>com.github.adamenk.prefs.FilePreferencesFactory</tt>
+ * <tt>FilePreferencesFactory</tt>
  * <p/>
  * The file defaults to [user.home]/.fileprefs, but may be overridden with the system property
- * <tt>com.github.adamenk.prefs.FilePreferencesFactory.file</tt>
+ * <tt>FilePreferencesFactory.file</tt>
  */
 public class FilePreferencesFactory implements PreferencesFactory {
     private static final Logger log = Logger.getLogger(FilePreferencesFactory.class.getName());
 
     private Preferences rootPreferences;
     public static final String SYSTEM_PROPERTY_FILE =
-            "com.github.adamenk.prefs.FilePreferencesFactory.file";
+            "FilePreferencesFactory.file";
 
     public Preferences systemRoot() {
         return userRoot();
